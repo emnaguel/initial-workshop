@@ -1,0 +1,37 @@
+.flex {
+    display: flex;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.big-square {
+    width: 200px;
+    border: 1px solid black;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.small-square {
+    border: 3px dashed black;
+    width: 100px;
+    background-color: red;
+    height: 100px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+
+table {
+    width: 300px; 
+    height: 150px;
+}
+
+.background-grey {
+    background-color: grey;
+}
